@@ -1,0 +1,195 @@
+.room-suite {
+    background-color: #363636;
+    position: relative;
+    top: -303px;
+}
+.rs {
+    background: rgba(0, 0, 0, 0.04) url(../img/room/1.jpg) top left repeat;
+    background-size: cover;
+    height: 565px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.r-text {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+
+.r-text h1 {
+    color: white;
+    font-size: 85px;
+    font-family: nimbus-reg;
+    font-weight: 500;
+}
+
+.rs:before {
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #292424a8;
+    position: absolute;
+}
+
+.r-menu {
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+}
+
+ul.r-menubar {
+    display: flex;
+}
+
+ul.r-menubar li {
+    list-style: none;
+    margin-right: 12px;
+    color: white;
+}
+
+ul.r-menubar a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.r-menubar a.active {
+    color: #baa256;
+}
+
+.text-color {
+    color: #baa256;
+}
+
+.rs-room, .rs-suite {
+    display: flex;
+    padding-top: 50px;
+}
+
+.luxury {
+    width: 40%;
+    padding: 100px 120px;
+    background-color: #4e4b4b;
+}
+
+.classic, .master, .superior {
+    width: 20%;
+}
+
+.rs-room h1, .rs-suite h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.rs-room h3, .rs-suite h3 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: nimbus-reg;
+}
+
+.rs-room p, .rs-suite p {
+    color: white;
+    font-size: 15px;
+    padding-right: 205px;
+    line-height: 20px;
+    font-family: nimbus-reg;
+}
+
+.l-text h3 {
+    position: relative;
+}
+
+.l-text h3:after {
+    position: absolute;
+    background-color: #baa256;
+    bottom: -6px;
+    left: 0;
+    width: 22%;
+    height: 1px;
+    content: '';
+}
+
+.classic-text {
+    width: 63%;
+    margin: auto;
+    background-color: #1f1e1e36;
+    height: 43%;
+    padding: 100px 20px 0;
+    text-align: center;
+}
+
+.classic-text {
+    width: 63%;
+    margin: auto;
+    background-color: #1f1e1e36;
+    height: 43%;
+    padding: 100px 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.classic-text {
+    width: 63%;
+    margin: auto;
+    background-color: #494441;
+    height: 43%;
+    padding: 100px 20px 0;
+    text-align: center;
+    position: relative;
+    clip-path: polygon(0% 0%, 0% 75%, 50% 100%, 50% 100%, 100% 75%, 100% 0);
+    opacity: .8;
+}
+
+.master, .superior {
+    position: relative;
+    overflow: hidden;
+}
+
+.master-text, .superior-text {
+    height: 100%;
+    padding: 100px 30px;
+    background-color: #313131;
+    text-align: center;
+    opacity: .8;
+}
+
+.rs-room a, .rs-suite a {
+    text-decoration: none;
+}
+
+.rs-room .classic {
+    background-image: url('../img/room/003.png');
+}
+
+.rs-room .master {
+    background-image: url('../img/room/001.png');
+}
+
+.rs-room .superior {
+    background-image: url('../img/room/002.png');
+}
+
+.rs-suite .classic {
+    background-image: url('../img/room/004.png');
+}
+
+.rs-suite .master {
+    background-image: url('../img/room/012.png');
+}
+
+.rs-suite .superior {
+    background-image: url('../img/room/013.png');
+}
+
+.classic, .master, .superior {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
