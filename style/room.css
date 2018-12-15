@@ -78,6 +78,10 @@ ul.r-menubar a.active {
     width: 40%;
     padding: 100px 120px;
     background-color: #4e4b4b;
+    min-height: 420px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .col, .col-2 {
@@ -92,7 +96,7 @@ ul.r-menubar a.active {
     justify-content: center;
 }
 
-.classic-text h1, .master-text h1, .superior h1 {
+.rs-room h1, .rs-suite h1, .classic-text h1, .master-text h1, .superior h1 {
     font-size: 28px;
     text-transform: uppercase;
     color: white;
@@ -117,6 +121,7 @@ ul.r-menubar a.active {
 
 .luxury-text h3 {
     position: relative;
+    margin-bottom: 24px;
 }
 
 .luxury-text h3:after {
@@ -134,10 +139,10 @@ ul.r-menubar a.active {
     position: relative;
 }
 .rs-gra {
-    width: 63%;
+    width: 71%;
     margin: auto;
     background-color: #494441;
-    height: 43%;
+    height: 67%;
     padding: 100px 20px 0;
     clip-path: polygon(0% 0%, 0% 86%, 50% 100%, 50% 100%, 100% 86%, 100% 0);
     margin: 0 auto;
@@ -186,6 +191,7 @@ ul.r-menubar a.active {
     flex-direction: column;
     justify-content: center;
     z-index: 9;
+    text-align: center;
 }
 
 .rs-room a, .rs-suite a {
@@ -221,6 +227,7 @@ ul.r-menubar a.active {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    overflow: hidden;
 }
 
 .swiper-container {
@@ -472,4 +479,55 @@ span.dt {
     top: auto;
     left: auto;
     line-height: 64px;
+}
+
+.rd-right .testimonial .card h3 {
+    font-size: 16px;
+    font-family: nimbus-reg;
+    font-weight: 100;
+    color: #ffffffd1;
+}
+
+.rd-right .profile_info p {
+    font-family: nimbus-reg;
+    font-size: 15px;
+    color: #222222;
+}
+
+.d-gra {
+    position: absolute;
+    width: 100%;
+    height: 82.5%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-200px);
+    transition: .5s;
+}
+
+.r-gallery .swiper-slide:hover .d-gra {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+i.fas.fa-search {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #baa256;
+}
+
+.d-icon {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.d-icon a {
+    color: #ffffffd1;
 }

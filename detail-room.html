@@ -215,30 +215,65 @@
                                             <div class="room-slide1 rl">
                                                 <img src="img/image_1480627577.jpg" alt="">
                                             </div>
+                                            <div class="d-gra">
+                                                <div class="d-icon">
+                                                    <div class="show-more">
+                                                        <a href=""><i class="fas fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="room-slide2 rl">
                                                 <img src="img/image_1483050132.jpg" alt="">
+                                            </div>
+                                            <div class="d-gra">
+                                                <div class="d-icon">
+                                                    <div class="show-more">
+                                                        <a href=""><i class="fas fa-search"></i></a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="room-slide3 rl">
                                                 <img src="img/image_1484678237.jpg" alt="">
                                             </div>
+                                            <div class="d-gra">
+                                                <div class="d-icon">
+                                                    <div class="show-more">
+                                                        <a href=""><i class="fas fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="room-slide4 rl">
                                                 <img src="img/image_1484678238.jpg" alt="">
+                                            </div>
+                                            <div class="d-gra">
+                                                <div class="d-icon">
+                                                    <div class="show-more">
+                                                        <a href=""><i class="fas fa-search"></i></a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="room-slide5 rl">
                                                 <img src="img/image_1483050132.jpg" alt="">
                                             </div>
+                                            <div class="d-gra">
+                                                <div class="d-icon">
+                                                    <div class="show-more">
+                                                        <a href=""><i class="fas fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- Add Pagination -->
-                                    <div class="swiper-pagination" style="bottom: 0px"></div>
+                                    <div class="swiper-pagination room-pagination" style="bottom: 0px"></div>
                                     <!-- Add Arrows -->
                                     <div class="control">
                                         <div class="swiper-button-next swiper-button-next--home" style="margin-top: -6px;right: 41%; height: 15px; top: 95.5%; background: none;">
@@ -459,23 +494,13 @@
 				}
 			}
 		});
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            spaceBetween: 0,
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
         var swiper2 = new Swiper('.swiper-container.room-slide', {
             slidesPerView: 4,
             spaceBetween: 15,
             loop: true,
             pagination: {
-                el: '.swiper-pagination',
+                el: '.swiper-pagination.room-pagination',
                 type: 'fraction',
-                clickable: true,
             },
             navigation: {
                 nextEl: '.swiper-button-next',
