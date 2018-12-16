@@ -1,12 +1,11 @@
 .room-suite {
     background-color: #363636;
     position: relative;
-    top: -303px;
 }
 .rs {
-    background: rgba(0, 0, 0, 0.04) url(../img/room/1.jpg) top left repeat;
+    background-image: url(../img/room/4.jpg);
     background-size: cover;
-    height: 565px;
+    height: 335px;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -14,7 +13,7 @@
 
 .r-text {
     position: absolute;
-    top: 70%;
+    top: 45%;
     left: 30%;
 }
 
